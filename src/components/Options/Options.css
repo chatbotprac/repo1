@@ -1,0 +1,31 @@
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+  background: transparent;
+  flex-direction: column;
+}
+.options-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blueviolet;
+  flex-direction: column;
+}
+.option-button {
+  width: 90%;
+  height: auto;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
+  border-color: black;
+  background: black;
+  color: white;
+  font-weight: 600;
+  word-wrap: break-word;
+  user-select: text;
+  text-align: left;
+  /* cursor: pointer; */
+}
+.option-button:hover {
+  transform: scale(1.02);
+  background-color: rgb(58, 57, 57);
+}
